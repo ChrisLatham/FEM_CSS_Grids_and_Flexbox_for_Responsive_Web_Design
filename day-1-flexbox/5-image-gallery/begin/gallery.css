@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width: 550px) {
+}
+@media (min-width: 850px) {
+}
+.container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+img {
+	object-fit: cover;
+	flex: auto;
+	overflow: hidden;
+}
